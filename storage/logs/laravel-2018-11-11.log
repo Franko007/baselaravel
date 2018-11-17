@@ -1,0 +1,199 @@
+[2018-11-11 16:51:04] local.ERROR: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ (SQL: select * from information_schema.tables where table_schema = homestead and table_name = migrations) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ (SQL: select * from information_schema.tables where table_schema = homestead and table_name = migrations) at C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ at C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php:70)
+[stacktrace]
+#0 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('select * from i...', Array, Object(Closure))
+#1 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(333): Illuminate\\Database\\Connection->run('select * from i...', Array, Object(Closure))
+#2 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\MySqlBuilder.php(18): Illuminate\\Database\\Connection->select('select * from i...', Array)
+#3 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\DatabaseMigrationRepository.php(169): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable('migrations')
+#4 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(556): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#5 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(91): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#6 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(63): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#7 [internal function]: Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#8 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#9 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#10 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#11 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(572): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#12 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#13 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#14 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#15 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\symfony\\console\\Application.php(886): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 {main}
+"} 
+[2018-11-11 16:54:33] local.ERROR: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ (SQL: select * from information_schema.tables where table_schema = homestead and table_name = migrations) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ (SQL: select * from information_schema.tables where table_schema = homestead and table_name = migrations) at C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ at C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php:70)
+[stacktrace]
+#0 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('select * from i...', Array, Object(Closure))
+#1 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(333): Illuminate\\Database\\Connection->run('select * from i...', Array, Object(Closure))
+#2 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\MySqlBuilder.php(18): Illuminate\\Database\\Connection->select('select * from i...', Array)
+#3 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\DatabaseMigrationRepository.php(169): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable('migrations')
+#4 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(556): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#5 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(91): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#6 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(63): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#7 [internal function]: Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#8 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#9 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#10 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#11 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(572): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#12 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#13 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#14 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#15 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\symfony\\console\\Application.php(886): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 {main}
+"} 
+[2018-11-11 17:02:14] local.ERROR: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ (SQL: select * from information_schema.tables where table_schema = homestead and table_name = migrations) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ (SQL: select * from information_schema.tables where table_schema = homestead and table_name = migrations) at C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ at C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php:70)
+[stacktrace]
+#0 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('select * from i...', Array, Object(Closure))
+#1 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(333): Illuminate\\Database\\Connection->run('select * from i...', Array, Object(Closure))
+#2 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\MySqlBuilder.php(18): Illuminate\\Database\\Connection->select('select * from i...', Array)
+#3 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\DatabaseMigrationRepository.php(169): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable('migrations')
+#4 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(556): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#5 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(91): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#6 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(63): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#7 [internal function]: Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#8 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#9 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#10 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#11 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(572): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#12 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#13 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#14 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#15 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\symfony\\console\\Application.php(886): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 {main}
+"} 
+[2018-11-11 17:04:24] local.ERROR: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ (SQL: select * from information_schema.tables where table_schema = homestead and table_name = migrations) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ (SQL: select * from information_schema.tables where table_schema = homestead and table_name = migrations) at C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ at C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php:70)
+[stacktrace]
+#0 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('select * from i...', Array, Object(Closure))
+#1 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(333): Illuminate\\Database\\Connection->run('select * from i...', Array, Object(Closure))
+#2 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\MySqlBuilder.php(18): Illuminate\\Database\\Connection->select('select * from i...', Array)
+#3 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\DatabaseMigrationRepository.php(169): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable('migrations')
+#4 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(556): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#5 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(91): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#6 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(63): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#7 [internal function]: Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#8 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#9 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#10 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#11 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(572): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#12 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#13 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#14 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#15 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\symfony\\console\\Application.php(886): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 {main}
+"} 
+[2018-11-11 17:08:08] local.ERROR: Command "dump-autoload" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"dump-autoload\" is not defined. at C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\symfony\\console\\Application.php:632)
+[stacktrace]
+#0 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\symfony\\console\\Application.php(226): Symfony\\Component\\Console\\Application->find('dump-autoload')
+#1 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2018-11-11 17:14:41] local.ERROR: Command "passport" is not defined.
+
+Did you mean one of these?
+    passport:client
+    passport:install
+    passport:keys {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"passport\" is not defined.
+
+Did you mean one of these?
+    passport:client
+    passport:install
+    passport:keys at C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\symfony\\console\\Application.php:632)
+[stacktrace]
+#0 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\symfony\\console\\Application.php(226): Symfony\\Component\\Console\\Application->find('passport')
+#1 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2018-11-11 17:28:09] local.ERROR: Call to undefined method App\Providers\AppServiceProvider::registerPolicies() {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Call to undefined method App\\Providers\\AppServiceProvider::registerPolicies() at C:\\Users\\fran\\Desktop\\laravel api\\saludos\\app\\Providers\\AppServiceProvider.php:25)
+[stacktrace]
+#0 [internal function]: App\\Providers\\AppServiceProvider->boot()
+#1 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(572): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(793): Illuminate\\Container\\Container->call(Array)
+#6 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(776): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\AppServiceProvider))
+#7 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\AppServiceProvider), 18)
+#8 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(777): array_walk(Array, Object(Closure))
+#9 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#10 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(206): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#11 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(297): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#12 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(120): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#13 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2018-11-11 17:28:29] local.ERROR: Call to undefined method App\Providers\AppServiceProvider::registerPolicies() {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Call to undefined method App\\Providers\\AppServiceProvider::registerPolicies() at C:\\Users\\fran\\Desktop\\laravel api\\saludos\\app\\Providers\\AppServiceProvider.php:25)
+[stacktrace]
+#0 [internal function]: App\\Providers\\AppServiceProvider->boot()
+#1 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(572): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(793): Illuminate\\Container\\Container->call(Array)
+#6 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(776): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\AppServiceProvider))
+#7 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\AppServiceProvider), 18)
+#8 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(777): array_walk(Array, Object(Closure))
+#9 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#10 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(206): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#11 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(297): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#12 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(120): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#13 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2018-11-11 17:43:52] local.ERROR: Command "server" is not defined.
+
+Did you mean one of these?
+    dump-server
+    make:observer
+    serve {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"server\" is not defined.
+
+Did you mean one of these?
+    dump-server
+    make:observer
+    serve at C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\symfony\\console\\Application.php:632)
+[stacktrace]
+#0 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\symfony\\console\\Application.php(226): Symfony\\Component\\Console\\Application->find('server')
+#1 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\fran\\Desktop\\laravel api\\saludos\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2018-11-11 17:48:04] local.ERROR: Trait 'App\HasApiTokens' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\HasApiTokens' not found at C:\\Users\\fran\\Desktop\\laravel api\\saludos\\app\\User.php:9)
+[stacktrace]
+#0 {main}
+"} 
